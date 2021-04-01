@@ -3,9 +3,9 @@
 ## _Introduction_
 The final two weeks of my course of study at The Tech Academy involved participating in a project for a real organization with a team of peers.
 
-The project was built using .NET MVC and Entity Framework with a Code-first approach.  It was an interactive website for managing the content and productions for a theater company.
+The project, an interactive website for managing the content and productions for a theater company, was built using .NET MVC and Entity Framework with a Code-first approach.
 
-The project was managed using Agile/Scrum methodologies and organized as a two-week sprint with an initial planning meeting, daily stand-ups, and a sprint review, ending with a code retrospective.  Project management was accomplished through Azure DevOps and utilized boards and user stories.
+The project was managed using Agile/Scrum methodologies and organized as a two-week sprint with an initial planning meeting, daily stand-ups, a sprint review, and ended with a code retrospective.  Project management was accomplished through Azure DevOps and utilized boards and user stories.
 
 Most of my work revolved around creating the area to manage the theatre's list of productions.
 
@@ -14,26 +14,30 @@ Most of my work revolved around creating the area to manage the theatre's list o
 
 ## _My Assignments_
 
-Front End Stories |
+Front End Stories
 -----------------
 
-* [Style Registration Form](#1.-Style-Registration-Form)
-* [Style Production Create and Edit Pages](#3.-Style-Create-and-Edit-Pages)
+* [Style Registration Form](#1-style-registration-form)
+* [Style Production Create and Edit Pages](#3-style-create-and-edit-pages)
 
-Back End Stories |
+Back End Stories
 ----------------
-* [Create Productions Model and CRUD](#2.-Create-Productions-Model-and-CRUD)
-* [Add Search and Pagination to Productions Index](#5.-Add-Search-and-Pagination-to-Productions-Index)
+* [Create Productions Model and CRUD](#2-create-productions-model-and-crud)
+* [Add Search and Pagination to Productions Index](#5-add-search-and-pagination-to-productions-index)
 
-Full Stack Stories |
+Full Stack Stories
 ------------------
-* [Redesign Productions Index Page](#4.-Redesign-Productions-Index-Page)
-* [Create Production Details Modal](#6.-Create-Production-Details-Modal)
+* [Redesign Productions Index Page](#4-redesign-productions-index-page)
+* [Create Production Details Modal](#6-create-production-details-modal)
 
-## 1. Style Registration Form
+<hr><hr>
+
+### 1. Style Registration Form
 My first assignment was to add basic styling to a form for new users to register an account.  It mostly involved utilizing CSS, and was styled by adding Bootstrap classes to the existing Razor page and creating a few custom classes to control the behavior.
 
+Before:
 ![Before](/images/beforeReg.png)
+After:
 ![After](/images/afterReg.png)
 
 ```css
@@ -95,8 +99,9 @@ My first assignment was to add basic styling to a form for new users to register
     box-shadow: 0px 0px 5px var(--light-color);
 }
 ```
+Back to: [Assignments](#my-assignments)
 
-## 2. Create Productions Model and CRUD
+### 2. Create Productions Model and CRUD
 Next, I was tasked with creating a class for the productions and creating the database table for it through Entity Framework.  It was relatively straightforward and involved creating the class and associated properties to match the database schema, utilizing a context file to create the table, and creating a new controller with scaffolding for CRUD pages to manage the table.
 
 Production Class:
@@ -302,14 +307,17 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
 
 ![Scaffolding](/images/scaffolding.png)
 
+Back to: [Assignments](#my-assignments)
 
-## 3. Style Create and Edit Pages
+### 3. Style Create and Edit Pages
 Following creation of basic CRUD pages, I was assigned to add styling to the Create and Edit pages.  Once again, this was accomplished through adding both Bootstrap and custom CSS classes.  Elements that were changed included the heading, buttons, text input fields and adding a container to hold the form.  I also included a media query into the code to make the form an appropriate width for smaller screens.
 
 ![Create-Form](/images/createTop.png)
 ![Create-Form](/images/createBottom.png)
 
-## 4. Redesign Productions Index Page
+Back to: [Assignments](#my-assignments)
+
+### 4. Redesign Productions Index Page
 The default production index was to be changed from a simple database list into a card layout with each production having it's own card that included the title and a production photo.  Each card featured an image overlay which, upon mouse hover, provided buttons for Edit, Delete, and Details.
 
 ![Before](/images/beforeIndex)
@@ -444,7 +452,9 @@ The default production index was to be changed from a simple database list into 
 /* END CREATE AND EDIT PRODUCTION PAGES */
 ```
 
-## 5. Add Search and Pagination to Productions Index
+Back to: [Assignments](#my-assignments)
+
+### 5. Add Search and Pagination to Productions Index
 The next task was to add a search bar to the index to be able to search the database by production title, and to add pagination to control the number of results returned and provide the user navigation when dealing with large results.  This task involved adding a package to the project to utilize paging utilities and a change to the controller to alter the logic used.
 
 ```c#
@@ -606,7 +616,9 @@ namespace TheatreCMS3.Areas.Prod.Controllers
 
 ![After](/images/afterSearch.png)
 
-## 6. Create Production Details Modal
+Back to: [Assignments](#my-assignments)
+
+### 6. Create Production Details Modal
 My final story's mission was to create a pop-up modal for the Details of each production to be displayed upon clicking each production card.  This task was accomplished by creating a Bootrap modal component, and rendering a Partial View within it which was called by using Javascript/JQuery and AJAX.
 
 Index.cshtml:
@@ -740,10 +752,11 @@ $(function () {
 });
 ```
 
-![Final-Index](/images/finishedIndex.png)
+![Final-Index](/images/finalIndex.png)
 
+Back to: [Assignments](#my-assignments)
 
-<hr>
+<hr><hr>
 
 ## _Learning Hightlights_
 * I Learned how to work on a devolopment team and how to focus on one assigned task at time while maintaining communication with the team.
@@ -751,8 +764,9 @@ $(function () {
 * I gained experience with version control branching, merge conflict resolution, and reverting to previous points in my work.
 * I learned to make more frequent commits, how to make better comments on my commits, and how to review the history.
 * I gained confidence with C#, Razor, Bootstrap and .Net.
+* I had a great time!
 
-
+Back to: [Top](#tech-academy-live-project)
 
 
 
