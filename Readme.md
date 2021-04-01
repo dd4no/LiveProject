@@ -357,8 +357,9 @@ After:
 		    <div class="card w-auto  mx-1 mb-2 p-0 cms-bg-secondary">
 
 				<div class="Production--cardImage">
-					<!-- Production Image -->				
+					<!-- Production Image - pending completion of ProductionPhoto class  -->				
 					@*<img src="@Html.DisplayFor(modelItem => item.DefaultPhoto) alt="@Html.DisplayFor(modelItem => item.Title)" />*@
+					<!-- Placeholder Image -->
 					<img src="@Url.Content("~/Content/images/macbeth.png")" class="card-img-top" alt="Default Photo" />
 
 					<!-- Hover overlay with Details, Edit, and Delete link buttons -->
