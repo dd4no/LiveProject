@@ -320,7 +320,9 @@ Back to: [Assignments](#my-assignments)
 ### 4. Redesign Productions Index Page
 The default production index was to be changed from a simple database list into a card layout with each production having it's own card that included the title and a production photo.  Each card featured an image overlay which, upon mouse hover, provided buttons for Edit, Delete, and Details.
 
+Before:
 ![Before](/images/beforeIndex.png)
+After:
 ![After](/images/afterIndex.png)
 
 ```html
