@@ -752,7 +752,7 @@ $(function () {
 });
 ```
 
-![Final-Index](/images/finalIndex.png)
+![Final-Index](/images/finishedIndex.png)
 
 Back to: [Assignments](#my-assignments)
 
