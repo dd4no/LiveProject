@@ -257,7 +257,7 @@ After:
 /* PRODUCTION AREA STYLING */
 
 
-/* CREATE AND EDIT PRODCUTIONS PAGES*/
+/* CREATE AND EDIT PRODUCTIONS PAGES*/
 
 /* Outer form container */
 .Production--formBox {
