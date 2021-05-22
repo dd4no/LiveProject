@@ -630,10 +630,10 @@ Back to: [Assignments](#my-assignments)
 <hr><hr>
 
 ## _Learning Hightlights_
-* I Learned how to work on a devolopment team and how to focus on one assigned task at time while maintaining communication with the team.
-* I learned how to work with Azure DevOps board and stories.
+* I worked witha a team on a development project and learned how to focus on one assigned task at time while maintaining communication with the team.
+* I worked with Azure DevOps boards and stories.
 * I gained experience with version control branching, merge conflict resolution, and reverting to previous points in my work.
-* I learned to make more frequent commits, how to make better comments on my commits, and how to review the history.
+* I learned to make more frequent commits, how to make better comments on my commits, and how to review the history of the project.
 * I gained confidence with C#, Razor, Bootstrap and .Net.
 * I had a great time!
 
