@@ -1,4 +1,4 @@
-# **Tech Academy Live Project**
+# **Theater CMS Project**
 
 ## _Introduction_
 The final two weeks of my course of study at The Tech Academy involved participating in a project for a real organization with a team of peers.
