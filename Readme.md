@@ -1,13 +1,13 @@
 # **Theater CMS Project**
 
 ## _Introduction_
-The final two weeks of my course of study at The Tech Academy involved participating in a project for a real organization with a team of peers.
+The final two weeks of my course of study at The Tech Academy involved participating in a project with a team of peers.
 
-The project, an interactive website for managing the content and productions for a theater company, was built using .NET MVC and Entity Framework with a Code-first approach.
+The project, an interactive website for managing the content and productions for Theatre Vertigo, was built using .NET MVC and Entity Framework with a Code-first approach.
 
 The project was managed using Agile/Scrum methodologies and organized as a two-week sprint with an initial planning meeting, daily stand-ups, a sprint review, and ended with a code retrospective.  Project management was accomplished through Azure DevOps and utilized boards and user stories.
 
-Most of my work revolved around creating the area to manage the theatre's list of productions.
+Most of my work revolved around creating the area to manage the theater productions.
 
 
 <hr>
